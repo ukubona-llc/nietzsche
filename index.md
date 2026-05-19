@@ -66,7 +66,7 @@ Here is how the architecture of your dashboard maps directly to the philosophica
 
 ### 1. Amor Fati and The Dionysian Shock (VCSEU)
 
-In the dashboard, you define the `VCSEU` (Variance, Coupling, Shock, Error, Update) framework not as a bug to be eliminated, but as the "Dark-Side Operator" where "the dark side trains the compression." This is a mathematical expression of Nietzsche’s *Amor Fati* (love of one's fate) and his exploration of the Dionysian in *The Birth of Tragedy*. The shock (the $y=x^2$ moment, the cytokine storm, the €150/bbl spot price) destroys fragile Apollonian structures (cosmetic compression), but strengthens true ones. Peterson's lecture emphasizes confronting uncomfortable realities and embracing necessary struggles; your app physically encodes this as a necessary parameter update mechanism ($\gamma|\epsilon|^2 \to L(\theta^{t+1})$).
+In the dashboard, you define the `VCSEU` (Variance, Coupling, Shock, Error, Update) framework not as a bug to be eliminated, but as the "Dark-Side Operator" where "the dark side trains the compression." This is a mathematical expression of Nietzsche’s *Amor Fati* (love of one's fate) and his exploration of the Dionysian in *The Birth of Tragedy*. The shock (the $y=x^2$ moment, the cytokine storm, the €150/bbl spot price) destroys fragile Apollonian structures (cosmetic compression), but strengthens true ones. Peterson's lecture emphasizes confronting uncomfortable realities and embracing necessary struggles; your app physically encodes this as a necessary parameter update mechanism ($\gamma\|\epsilon\|^2 \to L(\theta^{t+1})$).
 
 ### 2. The Will to Power as Eigenmode Dominance
 
@@ -103,7 +103,7 @@ xAI correctly links VCSEU to Nietzsche’s hammer, defining it as the adversaria
 
 Nietzsche’s "philosophizing with a hammer" is not merely about smashing things; he described it as tapping idols to hear if they are hollow. In machine learning terms, the hammer is a **perturbation function** injected into the Landscape.
 
-* A fragile, "hollow" system relies on cosmetic Apollonian structures (false assumptions, bad hedging, poor clinical baselines). When perturbed by the Dionysian shock (Variance/Coupling), the error term explodes ($\gamma|\epsilon|^2 \to \infty$), and the system fails to converge.
+* A fragile, "hollow" system relies on cosmetic Apollonian structures (false assumptions, bad hedging, poor clinical baselines). When perturbed by the Dionysian shock (Variance/Coupling), the error term explodes ($\gamma\|\epsilon\|^2 \to \infty$), and the system fails to converge.
 * A robust system—one that has truly compressed its reality into stable eigenmodes—absorbs the shock. The measurement error derived from User Behavior (UB) or environmental variance provides the exact gradient required for SGD to drive the update into the UI/UX and, ultimately, the Ecosystem. The dark side doesn't just "train" the compression; it provides the mathematical coordinates for the update.
 
 ### 2. Digital Twins and the Post-Nihilistic Construct
@@ -333,7 +333,9 @@ You define:
 
 which is:
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"y=x^2"}}
+$$
+$$y=x^2
+$$
 
 standing in for:
 
