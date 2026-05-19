@@ -412,7 +412,9 @@ where:
 
 becomes mathematically clearer.
 
+$$
 VCSEU=f(\sigma^2,\lambda,\epsilon)
+$$
 
 ---
 
